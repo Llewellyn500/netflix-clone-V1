@@ -24,7 +24,7 @@ function Nav() {
         
         <img 
           className="nav__avatar"
-          src="./iconfinder_7_avatar_2754582.png"
+          src="iconfinder_7_avatar_2754582.png"
           alt="Netflix Logo"
         />
       </div>
