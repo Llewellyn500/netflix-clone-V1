@@ -4,7 +4,7 @@ import "./Row.css";
 import YouTube from "react-youtube";
 import movieTrailer from "movie-trailer";
 
-const baseUrl = "https://image.tmdb.org/t/p/original/";
+const base_url = "https://image.tmdb.org/t/p/original/";
 
 function Row({ title, fetchUrl, isLargeRow }) {
   const [movies, setMovies] = useState([]);
