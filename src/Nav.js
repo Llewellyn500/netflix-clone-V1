@@ -24,7 +24,7 @@ function Nav() {
         
         <img 
           className="nav__avatar"
-          src="https://pbs.twimg.com/profile_images/12401199904155"
+          src="./iconfinder_7_avatar_2754582.png"
           alt="Netflix Logo"
         />
       </div>
