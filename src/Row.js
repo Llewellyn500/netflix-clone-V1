@@ -4,11 +4,11 @@ import "./Row.css";
 import YouTube from "react-youtube";
 import movieTrailer from "movie-trailer";
 
-const base_url = "https://image.tmdb.org/t/p/original/";
+const baseUrl = "https://image.tmdb.org/t/p/original/";
 
 function Row({ title, fetchUrl, isLargeRow }) {
   const [movies, setMovies] = useState([]);
-  const [trailerUrl, setTrailerUrl] = useState("");
+  const [trailerUrl, setTrailerUrl] = useState('');
   
   // a snippet of code which runs based on a specific condition
   useEffect(() => {
@@ -18,7 +18,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
       setMovies(request.data.results);
       return request;
     }
-    fetchData();
+      fetchData();
   }, [fetchUrl]);
   
   const opts = {
@@ -32,9 +32,9 @@ function Row({ title, fetchUrl, isLargeRow }) {
   
   const handleClick = (movie) => {
     if (trailerUrl) {
-      setTrailerUrl("");
+      setTrailerUrl('');
     } else {
-        movieTrailer(movie?.name || "")
+        movieTrailer(movie?.title || movie?.name || movie?.original_name || '')
          .then((url) => {
             const urlParams = new URLSearchParams(new URL(url).search);
             setTrailerUrl(urlParams.get('v'));
