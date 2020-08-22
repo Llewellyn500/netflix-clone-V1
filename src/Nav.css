@@ -6,9 +6,24 @@
   height: 30px;
   z-index: 1;
   
+  Display: flex;
+  Justify-content: space-between;
+  
   transition-timing-function: ease-in;
   transition: all 0.5s;
+  
+    animation:header-load 1000ms ease-in;
 }
+
+@keyframes header-load {
+	0% {
+		transform: translateY(-100%);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
 
 .nav__black {
   background-color: #111;
@@ -16,13 +31,15 @@
 
 .nav_logo {
   position: fixed;
-  left: 0;
+  left: 20px;
+  padding-top: 10px;
   width: 80px;
   object-fit: contain;
 }
 
 .nav__avatar {
   position: fixed;
+  padding-top: 5px;
   right:20px;
   width: 30px;
   object-fit: contain;
