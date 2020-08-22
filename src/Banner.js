@@ -1,4 +1,4 @@
-import React, { useState, useEFfect } from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from './axios';
 import requests from './requests';
 function Banner() {
