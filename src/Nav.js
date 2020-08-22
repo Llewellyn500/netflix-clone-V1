@@ -24,7 +24,7 @@ function Nav() {
         
         <img 
           className="nav__avatar"
-          src="iconfinder_7_avatar_2754582.png"
+          src="https://learning.royalbcmuseum.bc.ca/wp-content/uploads/2014/07/netflix-face.jpg"
           alt="Netflix Logo"
         />
       </div>
