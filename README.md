@@ -1,7 +1,7 @@
-#Deployed app link:
+# Deployed app link:
 [Netflix Clone](https://netflix-clone-de72a.web.app "Netflix Clone")
 
-
+*Special thanks to [Clever Programmer](https://www.youtube.com/c/CleverProgrammer "Clever Programmer") for giving this create build*
 ---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
