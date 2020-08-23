@@ -1,3 +1,9 @@
+#Deployed app link:
+[Netflix Clone](https://netflix-clone-de72a.web.app "Netflix Clone")
+
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
